@@ -25,7 +25,30 @@
   'use strict'
 
   var directiveName = 'socialshare',
-    socialshareProviderNames = ['facebook', 'twitter', 'linkedin', 'google', 'pinterest', 'tumblr', 'reddit', 'stumbleupon', 'buffer', 'digg', 'delicious', 'vk', 'pocket', 'wordpress', 'flipboard', 'xing', 'hackernews', 'evernote', 'whatsapp', 'viber', 'skype', 'email'],
+    socialshareProviderNames = [
+      'facebook',
+      // 'twitter',
+      // 'linkedin',
+      'google',
+      // 'pinterest',
+      // 'tumblr',
+      // 'reddit',
+      // 'stumbleupon',
+      // 'buffer',
+      // 'digg',
+      // 'delicious',
+      // 'vk',
+      // 'pocket',
+      // 'wordpress',
+      // 'flipboard',
+      // 'xing',
+      // 'hackernews',
+      // 'evernote',
+      // 'whatsapp',
+      // 'viber',
+      // 'skype',
+      // 'email'
+    ],
     socialshareConfigurationProvider = /*@ngInject*/ function socialshareConfigurationProvider () {
       var socialshareConfigurationDefault = [
         // {
